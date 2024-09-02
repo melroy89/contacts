@@ -20,7 +20,6 @@ use OCP\IRequest;
 use OCP\IUserSession;
 use OCP\L10N\IFactory;
 use OCP\Util;
-use Sabre\DAV\Exception\NotAuthenticated;
 
 class PageController extends Controller {
 	/** @var IConfig */
